@@ -40,7 +40,6 @@ func (this *Response) parseHeaders() error {
 
 //解析body
 func (this *Response) parseBody() error {
-	fmt.Println(this.Raw.Status)
 	if body, err := ioutil.ReadAll(this.Raw.Body); err != nil {
 		panic(err)
 	} else {
