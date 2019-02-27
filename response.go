@@ -1,7 +1,6 @@
 package goCurl
 
 import (
-	"fmt"
 	"io/ioutil"
 	"net/http"
 )
