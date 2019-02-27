@@ -1,4 +1,4 @@
-package go_curl
+package goCurl
 
 import (
 	"fmt"

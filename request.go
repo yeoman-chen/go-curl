@@ -4,7 +4,7 @@
  * Request构造类，用于设置请求参数，发起http请求
  */
 
-package go_curl
+package goCurl
 
 import (
 	"bytes"
