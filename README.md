@@ -57,11 +57,11 @@ sleep(6);
 return ;
 ```
 ## donelist
-*以链式操作的方式发起请求
-*发起GET/POST请求
-*发起PUT/PATCH/DELETE/OPTIONS操作
-*以application/x-www-form-urlencoded形式提交post数据
-*以application/json形式提交post数据
-*请求超时设置
+* 以链式操作的方式发起请求
+* 发起GET/POST请求
+* 发起PUT/PATCH/DELETE/OPTIONS操作
+* 以application/x-www-form-urlencoded形式提交post数据
+* 以application/json形式提交post数据
+* 请求超时设置
 
 
