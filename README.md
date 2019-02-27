@@ -1,18 +1,19 @@
-# go-curl
+## goCurl
 go版本的curl请求库
 
-# 安装
-go get github.com/yeoman-chen/go-curl
+## 安装
+go get github.com/yeoman-chen/goCurl
 
 # 使用
+```
 package main
 import (
 	"fmt"
-	"go-curl"
+	"goCurl"
 )
 
 func main() {
-	req := go_curl.NewRequest()
+	req := goCurl.NewRequest()
 	url := "http://ylo.yii2cms.com/test.php"
 	headers := map[string]string{
 		"User-Agent":   "Sublime",
@@ -39,8 +40,9 @@ func main() {
 		}
 	}
 }
-
-# php接收请求
+```
+## php接收请求
+```
 $reqMethod = $_SERVER["REQUEST_METHOD"];
 $contentType = isset($_SERVER['CONTENT_TYPE']) ? $_SERVER['CONTENT_TYPE'] : $_SERVER['HTTP_ACCEPT'];
 
@@ -53,13 +55,13 @@ $res["req_params"] = $params;
 echo json_encode($res);
 sleep(6);
 return ;
-
-# donelist
-###以链式操作的方式发起请求
-###发起GET/POST请求
-###发起PUT/PATCH/DELETE/OPTIONS操作
-###以application/x-www-form-urlencoded形式提交post数据
-###以application/json形式提交post数据
-###请求超时设置
+```
+## donelist
+*以链式操作的方式发起请求
+*发起GET/POST请求
+*发起PUT/PATCH/DELETE/OPTIONS操作
+*以application/x-www-form-urlencoded形式提交post数据
+*以application/json形式提交post数据
+*请求超时设置
 
 
